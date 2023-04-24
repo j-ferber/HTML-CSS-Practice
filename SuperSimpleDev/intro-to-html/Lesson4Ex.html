@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Lesson 4 Exercises</title>
+  </head>
+
+  <style>
+    
+    .backb{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-right: 8px;
+    }
+
+    .nextb{
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-left: 8px;
+    }
+
+    .page{
+      margin-right: 4px;
+      margin-left: 4px;
+    }
+
+    .stretch{
+      background-color: green;
+      font-size: 18px;
+      border:0;
+      color: white;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      cursor: pointer;
+      transition: padding-left 1s, padding-right 1s, padding-top 1s, padding-bottom 1s;
+    }
+
+    .stretch:hover{
+      padding-left: 36px;
+      padding-right: 36px;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+
+    .shadow{
+      background-color: green;
+      font-size: 18px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      color: white;
+      border:0;
+      cursor: pointer;
+      box-shadow: 3px 3px 5px rgba(0,0,0,.3);
+    }
+
+    .shadow:active{
+      margin-top: 3px;
+      margin-left: 3px;
+      box-shadow: none;
+    }
+
+    .one{
+      background-color: green;
+      border: 0;
+      color: white;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 18px;
+      margin-right: 10px;
+      margin-left: 10px;
+      cursor: pointer;
+
+    }
+
+    .one:hover{
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+  </style>
+
+  <body>
+
+    <button class="backb">Back</button>
+    <a class="page" href="https://google.com">1</a>
+    <a class="page" href="https://google.com">2</a>
+    <a class="page" href="https://google.com">3</a>
+    <a class="page" href="https://google.com">4</a>
+    <a class="page" href="https://google.com">5</a>
+    <button class="nextb">Next</button>
+    <hr>
+    <button class="stretch">Stretch</button>
+    <hr>
+    <button class="shadow">Shadow</button>
+    <hr>
+    <button class="one">One</button>
+    <button class="one">Two</button>
+    <button class="one">Three</button>
+
+  </body>
+
+</html>

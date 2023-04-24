@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Buttons HTML</title>
+  </head>
+
+  <body>
+    
+    <!--
+    <a href="https://www.google.com">
+      <button style="background-color: #333333; color: #00FF00; border-radius: 5px; border:0;">click me</button>
+    </a>
+    -->
+
+    <button onclick="doSomething()" style="background-color: #333333; border-radius: 5px; border:0; color: #00FF00">click me</button> 
+
+    <p id="test">Hello</p>
+
+    <script>
+      function doSomething(){
+        document.getElementById("test").innerHTML = "Goodbye";
+      }
+    </script>
+
+  </body>
+
+</html>
